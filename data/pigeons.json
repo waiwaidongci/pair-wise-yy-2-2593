@@ -10,14 +10,18 @@
       "vaccines": [
         {
           "date": "2026-04-01",
-          "name": "新城疫"
+          "name": "新城疫",
+          "id": "v-14aa31c6-f010-437c-adc9-0ddc6e3738c4",
+          "expiresOn": "2026-09-28"
         }
       ],
       "transfers": [
         {
           "date": "2026-04-15",
           "from": "育种棚",
-          "to": "北岸棚"
+          "to": "北岸棚",
+          "id": "t-3e4a52ca-d281-4d6d-89e2-f2819c610751",
+          "settled": true
         }
       ],
       "races": [
@@ -26,7 +30,8 @@
           "event": "120公里训放",
           "distance": 120,
           "returnTime": "10:42",
-          "rank": 18
+          "rank": 18,
+          "owner": "北岸棚"
         }
       ]
     },
@@ -51,6 +56,72 @@
       "vaccines": [],
       "transfers": [],
       "races": []
+    },
+    {
+      "ringNo": "CHN-2026-002",
+      "owner": "东湾棚",
+      "fatherRing": "",
+      "motherRing": "",
+      "color": "雨点",
+      "loft": "东湾一号棚",
+      "vaccines": [
+        {
+          "id": "v-seed-2",
+          "date": "2026-09-04",
+          "name": "新城疫+腺病毒",
+          "expiresOn": "2027-03-03"
+        }
+      ],
+      "transfers": [],
+      "races": []
+    },
+    {
+      "ringNo": "CHN-2026-003",
+      "owner": "西岭新棚",
+      "fatherRing": "CHN-2022-188",
+      "motherRing": "",
+      "color": "深雨点",
+      "loft": "西岭棚",
+      "vaccines": [
+        {
+          "id": "v-seed-3",
+          "date": "2026-09-24",
+          "name": "巴拉米哥",
+          "expiresOn": "2027-03-23"
+        }
+      ],
+      "transfers": [
+        {
+          "id": "t-seed-2",
+          "date": "2026-10-01",
+          "from": "南岸老棚",
+          "to": "西岭新棚",
+          "settled": false
+        }
+      ],
+      "races": []
     }
-  ]
+  ],
+  "events": [
+    {
+      "id": "ev-300",
+      "name": "秋季300公里资格赛",
+      "date": "2026-10-14",
+      "distance": 300
+    },
+    {
+      "id": "ev-500",
+      "name": "秋季500公里正赛",
+      "date": "2026-10-28",
+      "distance": 500
+    },
+    {
+      "id": "ev-old",
+      "name": "已开赛200公里站",
+      "date": "2026-09-29",
+      "distance": 200
+    }
+  ],
+  "slots": [],
+  "conflicts": []
 }
